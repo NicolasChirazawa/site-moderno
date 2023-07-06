@@ -1,0 +1,533 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+}
+
+.center {
+
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 5%;
+}
+
+.clear {
+
+    clear: both;
+}
+
+html, body {
+
+    height: 100%;
+}
+
+body > section.main {
+
+    position: relative;
+
+    background-image: url('../images/imagem-background.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+    /* Começa a crescer a partir deste ponto */
+    min-height: 800px;
+}
+
+body > section > div > header {
+
+    position: relative;
+    z-index: 2;
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+body > section > div > header > div > i {
+
+    position: relative;
+    z-index: 2;
+
+    font-size: 20px !important;
+
+    color: white;
+    text-decoration: none;
+
+    float: right;
+
+    margin: 20px 0px 0px 20px;
+}
+
+body > section > div.layer {
+
+    top: 0;
+    left: 0px;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    z-index: 1;
+}
+
+div > header > div.logo {
+
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+
+    float: left;
+    margin-top: 20px;
+}
+
+div > header > nav {
+
+   float: right;
+
+   margin: 20px 0px 0px 0px;
+}
+
+div > nav.mobile {
+
+    display: none;
+    float: right;
+}
+
+div > header > nav > ul > li {
+
+    display: inline-block;
+    list-style: none;
+
+    margin-left: 40px;
+}
+
+div > header > nav > ul > li > a {
+
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+
+    text-decoration: none;
+
+    display: inline-flex;
+}
+
+div > header > nav > ul > li > a:visited {
+
+    color: white;
+    text-decoration: none;
+}
+
+div > header > nav > ul > li > a:hover {
+
+    text-decoration-line: underline;
+    transition: 0.5s ease;
+}
+
+div > div.conteudo-header {
+
+    position: relative;
+    z-index: 2;
+
+    margin-top: 110px;
+
+    max-width: 700px;
+}
+
+div > div.conteudo-header > h2 {
+
+    color: white;
+    font-size: 44px;
+    font-weight: lighter;
+}
+
+div > div.conteudo-header > h2 > span {
+
+    display: inline-block;
+    color: #2692ff;
+}
+
+div > div.conteudo-header > p {
+
+    color: white;
+    font-size: 16px;
+
+    margin-top: 18px;
+}
+
+div > div.conteudo-header > a {
+
+    background-color: #2692ff;
+    display: block;
+    width: 150px;
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+div > div.conteudo-header > a:hover {
+
+    text-decoration-line: underline;
+}
+
+section > div.chamada_planos {
+
+    width: 100%;
+    background-color: lightgray;
+
+    display: flex;
+
+    padding: 15px 0px 20px 0px;
+}
+
+section > div.chamada_planos > h2 {
+
+    display: inline;
+
+    color: #2692ff;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+
+    border-top: 1px solid #2692ff;
+    margin: auto;
+}
+
+section > div > section {
+
+    display: flex;
+
+    margin: 40px ;
+}
+
+section > div > section.box-planos {
+
+    display: flex;
+
+    margin: 40px 40px 80px 40px;
+}
+
+section > div > section > div.box-planos-single {
+
+    width: 33.3%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    padding: 0px 40px;
+
+    transition: 0.5s;
+}
+
+section > div > section > div.box-planos-single > div.box_planos_wrapper {
+ 
+    width: 100%;
+
+    box-shadow: 10px 9px 5px -8px rgba(0, 0, 0, 0.75);
+
+    border: 1px solid #ccc;
+    min-height: 3%;
+}
+
+section > div > section > div.box-planos-single > div > h2 {
+
+    background-color: #2692ff;
+
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+
+    padding: 10px;
+}
+
+section > div > section > div.box-planos-single > div > div.pontos_planos {
+
+    padding: 8px 15px 0px ;
+}
+
+section > div > section > div.box-planos-single > div > div.pontos_planos > p {
+
+    color: #777777;
+    font-size: 17px;
+
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+section > div > section > div.box-planos-single > div > div.pontos_planos > p > i {
+
+    margin-right: 5px;
+}
+
+section > div > section > div > div > div.preco {
+
+    text-align: center;
+
+    margin-top: 6px;
+    padding: 15px 0;
+}
+
+section > div > section > div > div > div.preco > h2 {
+
+    display: inline-block;
+
+    color: #777;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+
+    padding: 0 20px;
+    border-top: 1px solid #ccc;
+}
+
+section.parallax {
+
+    position: relative;
+
+    height: 300px;
+
+    background-image: url('../images/header-bg-1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    min-width: 300px;
+
+    transition: 0.5s ease;
+}
+
+section.parallax > div.overlay-parallax {
+
+    background-color: rgba(20, 20, 20, 0.65);
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+}
+
+section.parallax > div.center {
+
+    position: relative;
+
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+
+    padding: 20px;
+    margin: 40px auto;
+
+    z-index: 2;
+
+    max-width: 960px;
+}
+
+section.parallax > div.center > span {
+
+    color: #2692ff;
+}
+
+section.parallax > div.center > p {
+
+    color: white;
+    font-size: 13px;
+    text-align: justify;
+
+    margin-top: 25px;
+}
+
+section.final-section {
+
+    padding: 30px 0px;
+}
+
+section > div > div.w50 {
+
+    width: 50%;
+
+    float: left;
+
+    padding: 0 20px;
+}
+
+section > div > div.w50 > div.w50 {
+
+    width: 45%;
+
+    float: left;
+
+    padding: 0 20px;
+    margin-right: 15px;
+
+    box-shadow: 10px 9px 5px -8px rgba(0, 0, 0, 0.75);
+}
+
+section > div > div > h2 {
+ 
+    color: #777;
+
+    font-weight: 300;
+    font-size: 24px;
+
+    position: relative;
+}
+
+section > div > div > h2 > div.border-efeito {
+ 
+    width: 50px;
+    height: 2px;
+
+    background-color: #777;
+
+    position: absolute;
+
+    transition: 0.4s;
+}
+
+section > div > div > h2:hover > div.border-efeito  {
+ 
+    width: 100px;
+}
+
+section > div > div.contato > form{
+
+    margin-top: 15px;
+}
+
+section > div > div.contato > form > input:not([type=submit]) {
+
+    display: block;
+
+    width: 100%;
+    height: 40px;
+
+    font-size: 15px;
+
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+section > div > div.contato > form > input[type=submit] {
+
+    cursor: pointer;
+
+    background-color: #2692ff;
+    width: 100px;
+    height: 33px;
+    
+    color: white;
+    font-size: 15px;
+
+    border: 0;
+    border-radius: 33px;
+    margin-top: 20px;
+}
+
+section > div > div.contato > form > textarea {
+
+    width: 100%;
+    height: 120px;
+    resize: vertical;
+
+    font-size: 15px;
+
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+section > div > div.time > h2 {
+
+    margin-bottom: 10px;
+}
+
+section > div > div > div.equipe-single {
+
+    min-height: 240px;
+
+    padding: 10px 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+section > div > div > div > div.topo-box-usuario{
+
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    margin-top: 10px;
+}
+
+section > div > div > div > div > div.box-avatar{
+
+    vertical-align: middle;
+
+    display: inline-block;
+
+    background: #ccc;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+}
+
+section > div > div > div > div > div.info-usuario {
+
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+section > div > div > div > div > div.info-usuario > p {
+
+    color: #777;
+    font-weight: 300;
+
+    padding-left: 8px;
+}
+
+section > div > div > div > div > div.info-usuario > p.nome {
+
+    font-size: 20px;
+}
+
+section > div > div > div > div > div.info-usuario > p.cargo {
+
+    font-size: 15px;
+}
+
+section > div > div > div > div.descricao-usuario-box {
+
+    color: #999999;
+    font-weight: 300;
+    font-size: 14px;
+
+    padding: 8px;
+}
+
+footer > p {
+
+    width: 100%;
+    background-color: #444;
+
+    color: white;
+    text-align: center;
+
+    padding: 10px 2px;
+}

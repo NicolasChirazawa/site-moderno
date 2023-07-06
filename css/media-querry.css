@@ -1,0 +1,133 @@
+@media screen and (max-width:1024px){
+
+    section > div > section {
+
+        flex-direction: column;
+    }
+
+    section > div > section > div.box-planos-single {
+
+        width: 100%;
+
+        margin: 10px 0px;
+
+        transform-origin: center;
+        transition: width 0.5s ease;
+    }
+
+    section.parallax > div.center > p {
+
+        padding: 5px 40px;
+    }
+
+    section.parallax {
+
+        height: 400px;
+        transition: 0.5s ease;
+    }
+
+    section > div > div.w50 {
+
+        width: 100%;
+
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+
+    div > header > nav.desktop {
+
+        display: none;
+     }
+
+    div > header > i {
+
+        position: relative;
+
+        cursor: pointer;
+
+        color: white;
+        font-size: 23px !important;
+
+        margin-top: 22px;
+
+        float: right;
+    }
+
+    body > section > div > nav.mobile {
+
+        position: relative;
+        display: none;
+
+        background-color: black;
+        width: 100%;
+        z-index: 2;
+
+        margin-top: 20px;
+
+    }
+
+    body > section > div > nav.mobile > ul {
+
+        width: 100%;
+
+        list-style: none;
+    }
+
+    body > section > div > nav.mobile > ul > li {
+
+        position: relative;
+        width: 100%;
+
+        text-align: center;
+
+        padding: 10px 0px;
+        border: 1px solid white;
+    }
+
+    body > section > div > nav.mobile > ul > li > a {
+
+        color: white;
+        text-decoration: none;
+    }    
+
+    body > section > div > div.conteudo-header{
+
+        margin-top: 153px;
+    }
+
+    body > section.main {
+
+        padding-bottom: 40px;
+    }
+
+    section > div > section{
+
+        margin: 40px 0px;
+        transition: 0.5s;
+    }
+
+    section > div > section > div.box-planos-single {
+
+        padding: 0px;
+    }
+
+    section.parallax {
+
+        height: calc(950px - 100vw);
+        transition: 0.5s ease;
+    }
+
+    section.parallax > div.center > p {
+
+        font-size: 12px;
+    }
+
+    section > div > div.w50 > div.w50 {
+
+        width: 100%;
+
+        margin-bottom: 10px;
+    }
+}
